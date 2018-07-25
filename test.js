@@ -15,5 +15,5 @@ describe('GET returns a valid json', function(){
                 expect(res.body.id).to.equal(1)
                 done()
             })
-    }).timeout(5000)
+    })
 })
