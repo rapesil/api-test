@@ -84,4 +84,7 @@ typings/
 !.vscode/extensions.json
 
 
+package-lock.json
+
+
 # End of https://www.gitignore.io/api/node,visualstudiocode
