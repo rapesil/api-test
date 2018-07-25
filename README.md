@@ -4,7 +4,7 @@ O objetivo deste repositório é disponibilizar o aprendizado em testes de api u
 
 Após clonar, você deve rodar:
 
-```npm install``
+```npm install```
 
 Para executar os testes basta:
 
