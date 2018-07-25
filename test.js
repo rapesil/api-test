@@ -8,7 +8,7 @@ describe('GET returns a valid json', function(){
         request('https://jsonplaceholder.typicode.com')
             .get('/posts/1')
             .end(function(err, res) {
-                assert.equal(res.body.id, 2)
+                assert.equal(res.body.id, 1)
                 expect(res.statusCode).to.equal(200)
                 expect(res.body.title).to.be.an('string')
                 expect(res.body.id).to.be.a('number')
